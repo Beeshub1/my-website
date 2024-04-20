@@ -1,0 +1,107 @@
+body {
+  background-image: url('back.png');
+  background-size:contain;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.links{
+  color:black;
+  text-align: center;
+  background-color:white;
+  margin-top: 5px;
+  margin-left:150px;
+  margin-right: 150px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  width:1000px;
+}
+
+.beeshub{
+  float:left;
+  margin-left: 50px;
+  font-size: 20px;
+  color:black;
+  
+ }
+
+ .hub{
+  color:blue;
+  font-weight: 400;
+ }
+
+ .about , .services , .contact{
+  color:black;
+  margin-right: 20px;
+  font-weight: 70px;
+  display: inline;
+  float:right;
+  
+ }
+ 
+ .content {
+  color:white;
+  font-style: italic ;
+  font-size: 10px;
+  font-weight: 20px;
+  width:50px;
+  display:flex;
+  margin-left: 150px;
+  margin-top: 150px;
+  font-family:'Courier New', Courier, monospace;
+ }
+
+ .more{
+  color:black;
+  font-size: 20px;
+  font-style: italic;
+  display: block;
+  
+ }
+ .fb , .in {
+  float:right;
+  margin-right: 10px;
+  
+ }
+.readmore{
+  background-color: blue;
+  color:white;
+  height:50px;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+a:hover{
+  color:red;
+}
+
+.new{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  
+}
+
+.second{
+ margin-top:0px;
+ text-align: center;
+ font-size: 30px;
+ padding-top:0px;
+}
+
+.end{
+  text-align: center;
+  font-size: x-small;
+  color:black;
+}
+.journ , .tech{
+  color:blue
+}
+
+.tel , .web , .ideas {
+  float:right;
+}
+ 
